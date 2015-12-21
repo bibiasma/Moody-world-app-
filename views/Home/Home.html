@@ -1,0 +1,12 @@
+<div data-options="dxView: {name: 'home', title: 'MoodyWorld' }">
+    <div data-options="dxContent: {targetPlaceholder: 'content'}">
+        <div class="wrapper">
+        <img data-bind="attr: { src: './Emotes/' + avaliableMoods()[currentVal()] + '.png'}"/>
+            
+        <div class="slider" data-bind="dxSlider: {min: 1, max: 5, value: currentVal }"></div>
+       <!-- <h1 class="currentMood" data-bind="text: avaliableMoods()[currentVal()]"></h1> -->
+        </div>
+    </div>
+</div>
+
+

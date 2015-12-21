@@ -1,0 +1,19 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30%;
+    width:50%;
+    height:50%;
+    
+}
+
+
+.slider {
+    margin-top: 10%;
+}
+

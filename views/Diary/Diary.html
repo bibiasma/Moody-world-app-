@@ -1,0 +1,9 @@
+<div data-options="dxView: {name: 'diary', title: 'Diary' }">
+    <div data-options="dxContent: {targetPlaceholder: 'content'}">
+        <div data-bind="dxList: {dataSource: moods, grouped: false}">
+            <div data-options="dxTemplate : {name: 'item'}">
+                <span data-bind="text: name"></span> ,  <span data-bind="text: mood"></span>
+            </div>
+        </div>
+    </div>
+</div>
